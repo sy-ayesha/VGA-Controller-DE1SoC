@@ -81,6 +81,20 @@ image_data.mif            128x128 image data (RGB332, 16384 bytes)
 4. Load the generated `.sof` file and click **Start** to program the FPGA.
 5. Connect a VGA monitor to the DE1-SoC's VGA port. The display should show a light blue background with a 128×128 image centered on screen.
 
+## Results
+
+**Successful Quartus compilation:**
+
+![Compilation Success](images/quartus_compilation.jpeg)
+
+**Successful FPGA programming:**
+
+![Programmer Success](images/quartus_programmer_success.jpeg)
+
+**Output on hardware (DE1-SoC + VGA monitor):**
+
+![Hardware Output](images/hardware_output.jpeg)
+
 ## Notes
 
 - LEDR[0] indicates PLL lock status.
